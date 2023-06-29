@@ -2,33 +2,33 @@ namespace AutoConfirmEventsInTimepad.Models;
 
 public class Ticket
 {
-    public string? id {get; set; }
-    public int event_id {get; set;}
-    public int organization_id {get; set;}
-    public string? order_id {get; set;}
-    public string? reg_date {get; set;}
-    public int reg_id {get; set;}
-    public string? status {get; set;}
-    public string? status_raw {get; set;}
-    public string? email {get; set;}
-    public string? surname {get; set;}
-    public string? name {get; set;}
-    public bool attended {get; set;}
-    public string? code {get; set;}
-    public string? barcode {get; set;}
-    public int price_nominal {get; set;}
-    public List<Answer>? answers {get; set;}
+    public string? id { get; set; }
+    public int event_id { get; set; }
+    public int organization_id { get; set; }
+    public string? order_id { get; set; }
+    public string? reg_date { get; set; }
+    public int reg_id { get; set; }
+    public string? status { get; set; }
+    public string? status_raw { get; set; }
+    public string? email { get; set; }
+    public string? surname { get; set; }
+    public string? name { get; set; }
+    public bool attended { get; set; }
+    public string? code { get; set; }
+    public string? barcode { get; set; }
+    public int price_nominal { get; set; }
+    public List<Answer>? answers { get; set; }
 
     public class Answer
     {
-        public int id {get; set;}
-        public string? type {get; set;}
-        public string? name {get; set;}
-        public bool mandatory {get; set;}
-        public string? value {get; set;}
+        public int id { get; set; }
+        public string? type { get; set; }
+        public string? name { get; set; }
+        public bool mandatory { get; set; }
+        public string? value { get; set; }
     }
 
-    public Ticket(string Id, int EventId, int OrganizationId, string? OrderId, string? RegDate, int RegId, string? Status, string? StatusRaw, 
+    public Ticket(string Id, int EventId, int OrganizationId, string? OrderId, string? RegDate, int RegId, string? Status, string? StatusRaw,
                   string? Email, string? Surname, string? Name, bool Attended, string? Code, string? Barcode, int PriceNominal, List<Answer>? Answers)
     {
         id = Id;
