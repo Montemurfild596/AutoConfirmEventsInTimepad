@@ -6,5 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="TimepadClient" Version="1.0.1"/>
+    <PackageReference Include="NETCore.MailKit" Version="2.1.0"/>
+    <PackageReference Include="MailKit" Version="4.1.0"/>
   </ItemGroup>
 </Project>

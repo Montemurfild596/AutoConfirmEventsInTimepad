@@ -1,6 +1,6 @@
 namespace AutoConfirmEventsInTimepad.Models;
 
-public class Ticket
+public class WebHookTicket
 {
     public string? id { get; set; }
     public int event_id { get; set; }
@@ -28,7 +28,7 @@ public class Ticket
         public string? value { get; set; }
     }
 
-    public Ticket(string Id, int EventId, int OrganizationId, string? OrderId, string? RegDate, int RegId, string? Status, string? StatusRaw,
+    public WebHookTicket(string Id, int EventId, int OrganizationId, string? OrderId, string? RegDate, int RegId, string? Status, string? StatusRaw,
                   string? Email, string? Surname, string? Name, bool Attended, string? Code, string? Barcode, int PriceNominal, List<Answer>? Answers)
     {
         id = Id;
