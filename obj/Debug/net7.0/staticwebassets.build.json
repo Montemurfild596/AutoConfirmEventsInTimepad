@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "AQpbg8bKzZgMveizqBSnZlopgdz+c5IQITeLIeuPeJY=",
+  "Source": "AutoConfirmEventsInTimepad",
+  "BasePath": "_content/AutoConfirmEventsInTimepad",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
