@@ -54,6 +54,7 @@ app.Run(async (context) =>
                 EmailService emailService = new EmailService();
                 await emailService.SendEmailAsync(webHookTicket.email, webHookTicket.event_id.ToString(), $"Добрый день!\n\nВаша регистрация на событие подтверждена!", $"{webHookTicket.surname} {webHookTicket.name}");
             }
+            new OkResult();
             //await response.WriteAsync(email.ToString());
         }
     }
